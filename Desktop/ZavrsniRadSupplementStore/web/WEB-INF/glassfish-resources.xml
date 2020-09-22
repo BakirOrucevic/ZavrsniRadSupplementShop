@@ -5,10 +5,10 @@
         <property name="serverName" value="localhost"/>
         <property name="portNumber" value="3306"/>
         <property name="databaseName" value="supplementstore"/>
-        <property name="User" value="said"/>
-        <property name="Password" value="StarBoyG"/>
+        <property name="User" value="root"/>
+        <property name="Password" value="root"/>
         <property name="URL" value="jdbc:mysql://localhost:3306/supplementstore?useSSL=false"/>
         <property name="driverClass" value="com.mysql.cj.jdbc.Driver"/>
     </jdbc-connection-pool>
-    <jdbc-resource enabled="true" jndi-name="java:app/supplementstore" object-type="user" pool-name="mysql_supplementstore_saidPool"/>
+    <jdbc-resource enabled="true" jndi-name="java:app/supplementstore" object-type="user" pool-name="mysql_supplementstore_bakirPool"/>
 </resources>
